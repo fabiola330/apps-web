@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="shortcut icon" href="cssimagen" type="image/x-icon">
+    <link rel="stylesheet" href="adorno.css">
+</head>
+<body>
+    <h1>CSS</h1>
+    <p>Cascading Style Sheets, es un estandar que define como se presentan los datos en el
+    navegador. Mientras que el HTML proporciona información sobre la estructura de un documento 
+    el CSS indica el aspecto que debe tener.</p>
+    <p>El objetivo principal del desarrollo de CSS es separar el contenido, ya sea escrito 
+    en HTML u otro lenguaje de marcado, del diseño del documento. Esta separación puede 
+    aumentar la accesibilidad de los documentos, proporciona mayor flexibilidad y control 
+    sobre su presentación, así como reducir la complejidad y la repetición de los contenidos estructurados.</p>
+
+    <h4>Selectores</h4>
+    <p>Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan 
+    para aplicarles una regla que incluye los valores de las propiedades CSS. El elemento o los elementos 
+    seleccionados por el selector se denominan sujeto del selector. </p>
+    <div class="table-responsive">
+    <table border="3" class="tabla" >
+        <tr>
+            <th>Selector</th>
+            <th>Sintaxis</th>
+            <th>Sirve</th>
+        </tr>
+        <tr>
+            <td>Selector universal *</td>
+            <td>*{atributo:valor;}</td>
+            <td>Es útil cuando se desea aplicar un estilo a todos los elementos en una página web sin excepción</td>
+        </tr>
+        <tr>
+            <td>Selector etiqueta</td>
+            <td>etiqueta{atributo:valor}</td>
+            <td>El estilo se aplicará a todos los elementos de la etiqueta.</td>
+        </tr>
+        <tr>
+            <td>Selector clase .</td>
+            <td>.clase{atributo:valor}</td>
+            <td>El estilo se aplicará a cualquier elemento que tenga el nombre de la clase. <br>
+                Un elemento puede tener míltiples clases: div class="blend otro-estilo" /div <br>
+                En este ejemplo, el elemento div tendrá los estilos definidos para ambas clases .bled y .otro-estilo <br>
+                Sin embargo, si hay propiedades CSS que se repiten en ambas clases, se aplicarán los <br>
+                estilos de la última clase declarada.
+            </td>
+        </tr>
+        <tr>
+            <td>Selector identificador #</td>
+            <td>#id{atributo:valor}</td>
+            <td>Utiliza el atributo id (o el nombre que se le puso) para seleccionar un elemento </td>
+        </tr>
+        <tr>
+            <td>Combinación de selectores</td>
+            <td>selector1, selector2, selector3{atributo:valor;}</td>
+            <td>El estilo se aplica sobre los selectores indicados</td>
+        </tr>
+    </table>
+    </div>
+    <h3>Ejemplo con selector etiqueta</h3>
+    <h2>h1 { color:blue; font-size:12px;}</h2>
+    <p>Donde</p>
+    <p>h1 es el nombre del selector</p>
+    <p> color es la propiedad del selector</p>
+    <p>: significa que viene el valor de la propiedad</p>
+    <p>blue es el valor de la propiedad</p>
+    <p>; significa cierre</p>
+    <p>font-size es otra propiedad del selector</p>
+    <p>12px es el valor de la propiedad</p>
+<div id="carouselStackedBottom" class="carousel slide">
+  <div class="carousel-inner rounded-5">
+    
+    <div class="carousel-item">
+      <img src="unidades.png"  alt="Imagen que contiene las unidades de medida en CSS" width="300" height="300"
+      title="Las unidades de medidas en CSS son esenciales para definir
+        tamaños, posiciones y proporciones de los elementos en una página web.
+        Estas se dividen en unidades absolutas y unidades relativas, cada una con características
+        especificas que las hacen útiles en diferentes contextos.">
+      <p>
+      </p>
+    </div>
+    <div class="carousel-item">
+      <img src="colores.JPG"  alt="Imagen que contiene información sobre la teoría del color" width="300" height="300"
+      title="La teoría del color estudia cómo percibimos y utilizamos los colores.">
+    </div>
+  </div>
+  <div>
+    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedBottom" data-bs-slide="prev">
+      <span class="carousel-icon-prev" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedBottom" data-bs-slide="next">
+      <span class="carousel-icon-next" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    
+ 
+ <div class="containerB">
+    <div class="row">
+        <div class="col-12">
+  <p>Otra herramienta para dar disño a una página web es Bootstrap</p>
+  <p>Bootstrap es un framework que permite a los desarrolladores web construir páginas web
+    responsivas de una forma más rápida y sencilla. En este sentido, proporciona un conjunto
+    de componentes y plantillas CSS, HTML y JavaScript que cualquiera puede utilizar o modificar
+    de manera gratuita.
+  </p>
+  <p>Si quieres conocer más sobre Bootstrap te invitamos a visitar su página oficial: <a href="https://getbootstrap.com/">Bootstrap</a></p>
+  <p>Si quieres aprender a usar Bootstrap te invitamos a seguir el siguiente enlace: <a href="https://youtu.be/-ZInT4p9hH8?si=xKQNxr0CWYGbmn1P">Aprende a usar Bootstrap</a> </p>
+ </div>
+</div>
+</div>
+<br>
+<div class="regreso"><a href="index.html">Regreso</a></div>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>

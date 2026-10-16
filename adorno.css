@@ -1,0 +1,91 @@
+body{
+    background-color: #fafbff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333;
+    padding-bottom: 40px;
+}
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+    width: auto;
+}
+tr:hover {background-color:#415ef0;
+td{
+    color: #fffbf2;
+}
+}
+th {
+  background-color: #926aff;
+  color: white;
+}
+div.tablecontainer {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+body {margin:25px;}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+
+  padding: 10px 20px;
+}
+p{
+  text-align: justify;
+}
+.containerB{
+  background-color: #415ef0;
+  color:#fafbff;
+
+}
+.containerB a{
+  text-align: none;
+  color:aqua;
+}
+#carouselStackedBottom{
+  align-items: center;
+}
+#carouselStackedBottom .carousel-item{
+  align-items: center;
+}
+.regreso a{
+    
+    color:rgb(5, 5, 5);
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+.regreso a:hover,
+.regreso a:focus-visible{
+    background-color: #2563eb;
+
+}
+video{
+  width: 100;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
